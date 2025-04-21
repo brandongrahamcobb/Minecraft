@@ -1,0 +1,15 @@
+Configuration:
+  Patreon:
+    api_key: ''
+    client_secret: aXuH42g8qNm4_whJJnsIm52ywAIP43ZQlAPpHq7cUuLV0Vc75RpKr21Q8sYTaXn0
+    redirect_uri: https://2cf8-68-32-213-147.ngrok-free.app/oauth/patreon_callback
+    client_id: 0iTWDbNfDxFJeLRHsCYf_-dn8CDuNOBU7_8DGZ__fgqdqgwOXz3nQEWhBZvEz0GA
+  Postgres:
+    database: lucy
+    password: ''
+    port: '5432'
+    host: localhost
+    user: postgres
+  Spark:
+    redirect_uri_endpoint: /oauth/patreon_callback
+    port: '8000'

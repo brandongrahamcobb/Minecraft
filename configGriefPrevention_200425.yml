@@ -162,8 +162,8 @@ GriefPrevention:
   HardModeZombiesBreakDoors: false
   MobProjectilesChangeBlocks: false
   Database:
-    URL: jdbc:postgresql://localhost:4578/lucy
-    UserName: postgres
+    URL: ''
+    UserName: ''
     Password: ''
   UseBanCommand: false
   BanCommandPattern: ban %name% %reason%
