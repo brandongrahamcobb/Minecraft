@@ -192,6 +192,7 @@ groups:
     info:
       prefix: '&2[Vegan]&r '
   troll:
+    build: false
     default: false
     permissions:
     - -essentials
