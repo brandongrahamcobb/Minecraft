@@ -42,18 +42,29 @@ groups:
     permissions:
     - -essentials.keepxp
     - essential.afk.auto
-    - essential.speed
-    - essential.speed.walk
     - essentials.afk
     - essentials.afk.message
+    - essentials.back
+    - essentials.back.onteleport
     - essentials.build.*
     - essentials.discord.receive.primary
     - essentials.help
+    - essentials.home
     - essentials.mail
     - essentials.mail.send
+    - essentials.msg
     - essentials.ping
     - essentials.ptime
     - essentials.pweather
+    - essentials.renamehome
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.sethome.multiple.legacy
+    - essentials.spawn
+    - essential.speed
+    - essential.speed.walk
+    - essentials.tpa
+    - essentials.tpaccept
     - essentials.warp.get
     - essentials.warp.list
     - essentials.warpsign.sign
@@ -136,19 +147,7 @@ groups:
   legacy:
     default: false
     permissions:
-    - essentials.back
-    - essentials.back.onteleport
     - essentials.feed
-    - essentials.home
-    - essentials.msg
-    - essentials.renamehome
-    - essentials.sethome
-    - essentials.sethome.bed
-    - essentials.sethome.multiple.legacy
-    - essentials.spawn
-    - essentials.tpa
-    - essentials.tpaccept
-    - essentials.tpdeny
     inheritance:
     - everyone
     info:
