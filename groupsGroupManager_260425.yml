@@ -41,7 +41,7 @@ groups:
     default: true
     permissions:
     - -essentials.keepxp
-    - essential.afk.auto
+    - essentials.afk.auto
     - essentials.afk
     - essentials.afk.message
     - essentials.back
@@ -55,8 +55,8 @@ groups:
     - essentials.ping
     - essentials.ptime
     - essentials.pweather
-    - essential.speed
-    - essential.speed.walk
+    - essentials.speed
+    - essentials.speed.walk
     - essentials.tpa
     - essentials.tpaccept
     - essentials.warp.get
@@ -457,11 +457,13 @@ groups:
   vegan:
     default: false
     permissions:
-    - -essential.keepinv
+    - -essentials.keepinv
     - -essentials.ban
     - -essentials.ban.*
     - -essentials.banip
     - -essentials.delwarp
+    - -essentials.fly
+    - -essentials.gamemode.creative
     - -essentials.mute.offline
     - -essentials.tempban.offline
     - -essentials.togglejail
